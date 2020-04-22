@@ -1,6 +1,12 @@
 #include <iostream>
+#include "Application.h"
+#include "DigitalOutput.h"
+#include "Led.h"
 
 int main(void)
 {
-    std::cout << "Hello World!" << std::endl;
+    DigitalOutput output;
+    Led led{ output };
+
+    Application app{ led };
 }
