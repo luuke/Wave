@@ -24,10 +24,10 @@
     <ClCompile Include="Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DigitalHeader.cpp">
+    <ClCompile Include="Led.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Led.cpp">
+    <ClCompile Include="DigitalOutput.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
